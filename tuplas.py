@@ -32,4 +32,13 @@ print(type(a), type(b), type(c))
 tupla2 = (8,5,4,7,8,5)
 lista = list(tupla2)
 print(tupla2, lista)
+'''
+reverse()
+append()
+extend()
+remove()
+clear()
+sort()
+'''
+
 
