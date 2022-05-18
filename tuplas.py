@@ -10,6 +10,8 @@ print(frutas[2])
 #frutas[2] = 'coco' -> no se hace, porque las tuplas son inmutables
 
 tupla1 = ('Juan', 50, True, [50, 25, 40])
+tupla2 = tuple(('Juan', 50, True))
+# tupla2.append('Juan') no se puede
 print(tupla1)
 tupla1[3][1] = 100
 print(tupla1)
@@ -32,6 +34,7 @@ print(type(a), type(b), type(c))
 tupla2 = (8,5,4,7,8,5)
 lista = list(tupla2)
 print(tupla2, lista)
+# Estos métodos no aplican a las tuplas
 '''
 reverse()
 append()
